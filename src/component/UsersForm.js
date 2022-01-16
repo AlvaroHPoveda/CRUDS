@@ -2,6 +2,7 @@ import axios from 'axios';
 import React from 'react';
 import { useEffect } from 'react';
 import { useForm } from 'react-hook-form';
+import '../App.css';
 
 const defaultValues = {first_name: "", last_name: "", email: "", password: "", birthday: ""}
 
