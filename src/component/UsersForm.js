@@ -33,7 +33,7 @@ const UsersForm = ({ getUsers, usersSeleted, deselectUsers }) => {
             <div className='input-container-general'>
                 <h3>New User</h3>
             <div className='input-container'>
-                <label htmlFor="first_name"><i class="fas fa-user"></i></label>
+                <label htmlFor="first_name"><i className="fas fa-user"></i></label>
                 <input
                 className='input_part01'
                     type="text"
@@ -49,7 +49,7 @@ const UsersForm = ({ getUsers, usersSeleted, deselectUsers }) => {
                   />
             </div>
             <div className='input-container'>
-                <label htmlFor="email"><i class="fas fa-envelope"></i></label>
+                <label htmlFor="email"><i className="fas fa-envelope"></i></label>
                 <input
                 className='input_part02'
                     type="email"
@@ -58,7 +58,7 @@ const UsersForm = ({ getUsers, usersSeleted, deselectUsers }) => {
                   />
             </div>
             <div className='input-container'>
-                <label htmlFor="password"><i class="fas fa-lock"></i></label>
+                <label htmlFor="password"><i className="fas fa-lock"></i></label>
                 <input
                 className='input_part02'
                     type="password"
@@ -67,7 +67,7 @@ const UsersForm = ({ getUsers, usersSeleted, deselectUsers }) => {
                   />
             </div>
             <div className='input-container'>
-                <label htmlFor="birthday"><i class="fas fa-birthday-cake"></i></label>
+                <label htmlFor="birthday"><i className="fas fa-birthday-cake"></i></label>
                 <input
                 className='input_part02'
                     type="date"

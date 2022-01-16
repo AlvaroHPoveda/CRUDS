@@ -12,8 +12,8 @@ const UserList = ({users, selectUsers, deleteUsers}) => {
                         <li>{user.birthday}</li>
                     </div>
                     <div className='card-part02'>
-                        <button className='buttonCard' type='button' onClick={()=>deleteUsers(user.id)}><i class="fas fa-trash-alt"></i></button>
-                        <button className='buttonCard' type='button' onClick={()=>selectUsers(user)}><i class="fas fa-pencil-alt"></i></button>
+                        <button className='buttonCard' type='button' onClick={()=>deleteUsers(user.id)}><i className="fas fa-trash-alt"></i></button>
+                        <button className='buttonCard' type='button' onClick={()=>selectUsers(user)}><i className="fas fa-pencil-alt"></i></button>
                     </div>
                 </ul>
             ))}    
